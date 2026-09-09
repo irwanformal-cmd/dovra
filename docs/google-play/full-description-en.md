@@ -31,8 +31,7 @@ clear error messages are built in.
 
 ## Private by design
 
-- 100% on-device processing — no cloud upload, no internet permission needed
-  for reading or converting.
+- Fully on-device processing — no cloud upload, and no internet permission needed for reading or converting.
 - No account, no sign-in, no ads, no analytics, no tracking.
 - Files are accessed only through Android's Storage Access Framework (the
   files and folders you explicitly pick).

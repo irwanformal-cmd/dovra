@@ -32,8 +32,7 @@ indikator progres, pembatalan, dan pesan error yang jelas.
 
 ## Privat sejak awal
 
-- 100% diproses di perangkat — tanpa unggah cloud, tanpa perlu izin internet
-  untuk membaca atau mengonversi.
+- Seluruhnya diproses di perangkat — tanpa unggah cloud, dan tanpa perlu izin internet untuk membaca atau mengonversi.
 - Tanpa akun, tanpa iklan, tanpa analitik, tanpa pelacakan.
 - File diakses hanya melalui Storage Access Framework Android (file dan
   folder yang Anda pilih sendiri).
