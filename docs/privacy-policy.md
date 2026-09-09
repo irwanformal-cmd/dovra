@@ -1,6 +1,6 @@
 # Dovra Privacy Policy
 
-**Effective date:** [TO BE SET ON FIRST PUBLICATION — use the date the policy is first published]
+**Effective date:** September 10, 2026
 
 **App:** Dovra – Document Reader & Converter (`com.docuconvert.app`)
 
@@ -119,7 +119,6 @@ before or with the corresponding app update.
 
 ## 11. Contact
 
-For privacy questions about Dovra, contact the developer via the support
-channel listed on the app's store listing / support page.
-([CONTACT TO BE ADDED — insert a support email or contact URL before
-publication.])
+For privacy questions about Dovra, contact the developer at
+bookirwan@gmail.com. You may also use the support channel listed on the
+app's store listing / support page.
