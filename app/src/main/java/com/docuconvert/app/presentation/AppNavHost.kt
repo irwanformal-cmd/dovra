@@ -155,7 +155,7 @@ fun AppNavHost(
                         onKeepHistory = { viewModel.setKeepHistory(it) },
                         onAutoOpen = { viewModel.setAutoOpenResult(it) },
                         onPickOutputFolder = { pickFolder.launch(null) },
-                        onPrivacyPolicy = { openUrl(context, "https://documint.app/privacy") },
+                        onPrivacyPolicy = { openUrl(context, "https://irwanformal-cmd.github.io/dovra/privacy/") },
                         onLicenses = { navController.navigate("licenses") },
                         onSupport = { showSupport = true }
                     )

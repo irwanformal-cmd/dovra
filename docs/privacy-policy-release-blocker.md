@@ -15,7 +15,7 @@ yet**, and no public URL has been claimed.
 3. Fill the two placeholders in `docs/privacy-policy.md` (effective date,
    contact channel), regenerate `website/privacy/index.html` accordingly.
 4. Update the Android app privacy URL (currently the unconfirmed
-   `https://documint.app/privacy` in
+   `https://irwanformal-cmd.github.io/dovra/privacy/` in (updated 2026-09-09 after verified Pages deployment)
    `app/src/main/java/com/docuconvert/app/presentation/AppNavHost.kt`)
    to the real public URL.
 5. Enter the **same** public URL in Google Play Console → App content →
