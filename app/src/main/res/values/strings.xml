@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Dovra</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Dovra</string>
+    <string name="home_subtitle">Read and convert your documents privately.</string>
+    <string name="btn_open_document">Open document</string>
+    <string name="btn_convert_document">Convert document</string>
+    <string name="recent_documents">Recent documents</string>
+    <string name="no_recent_documents">No recent documents</string>
+    <string name="recent_empty_hint">Files you open or convert will appear here.</string>
+    <string name="see_all">See all</string>
+    <string name="offline_title">Fully offline</string>
+    <string name="offline_subtitle">Your files stay on your device</string>
+
+    <!-- Document Viewer -->
+    <string name="doc_info_filename">Filename</string>
+    <string name="doc_info_type">File type</string>
+    <string name="doc_info_size">File size</string>
+    <string name="btn_open">Open</string>
+    <string name="btn_convert">Convert</string>
+    <string name="btn_share">Share</string>
+    <string name="viewer_default_title">Document</string>
+    <string name="viewer_no_document">No document selected</string>
+    <string name="viewer_no_document_hint">Open a document to preview it here.</string>
+    <string name="viewer_no_preview">Preview not available</string>
+    <string name="viewer_no_preview_hint">This document opened, but there is no text preview for it.</string>
+    <string name="viewer_sig_mismatch">Warning: file content does not match its extension.</string>
+
+    <!-- Conversion Flow -->
+    <string name="convert_title">Convert</string>
+    <string name="convert_subtitle">Select a document to convert.</string>
+    <string name="convert_to">Convert to</string>
+    <string name="btn_convert_action">Convert document</string>
+    <string name="btn_select_document">Select document</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_clear">Clear</string>
+    <string name="converting">Converting document</string>
+    <string name="conversion_complete">Conversion complete</string>
+    <string name="btn_open_result">Open</string>
+    <string name="btn_save_as">Save</string>
+    <string name="target_high_compat">High compatibility</string>
+    <string name="target_simplified">Simplified</string>
+
+    <!-- Errors -->
+    <string name="error_unable_to_convert">Unable to convert this document</string>
+    <string name="error_possible_reasons">Possible reasons:</string>
+    <string name="error_unsupported_structure">Unsupported document structure</string>
+    <string name="error_corrupted_file">Corrupted file</string>
+    <string name="error_unsupported_conversion">Unsupported conversion</string>
+    <string name="error_insufficient_storage">Insufficient storage</string>
+    <string name="error_permission_denied">Permission denied</string>
+    <string name="error_unknown">Unknown error</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_behavior">Behavior</string>
+    <string name="settings_choose_folder">Choose folder</string>
+    <string name="settings_folder_default">Documents/Dovra</string>
+    <string name="appearance">Appearance</string>
+    <string name="appearance_system">System</string>
+    <string name="appearance_light">Light</string>
+    <string name="appearance_dark">Dark</string>
+    <string name="default_output_folder">Default output folder</string>
+    <string name="keep_history">Keep conversion history</string>
+    <string name="auto_open_result">Automatically open converted file</string>
+    <string name="about">About</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="open_source_licenses">Open Source Licenses</string>
+    <string name="version">Version</string>
+
+    <!-- Support Dovra (external donation links; processing stays offline) -->
+    <string name="support_title">Support Dovra</string>
+    <string name="support_subtitle">Help support the continued development of Dovra.</string>
+    <string name="support_body">Dovra is free and developed independently. If you find it useful, you can support its development.</string>
+    <string name="support_bmc">Buy Me a Coffee</string>
+    <string name="support_saweria">Saweria</string>
+
+    <!-- Bottom navigation (compact, single-line) -->
+    <string name="nav_home">Home</string>
+    <string name="nav_convert">Convert</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="history_empty">No conversion history</string>
+    <string name="history_empty_hint">Your completed conversions will appear here.</string>
+    <string name="btn_delete_history">Delete history</string>
+    <string name="history_today">Today</string>
+    <string name="history_yesterday">Yesterday</string>
+    <string name="history_failed">Failed</string>
+
+    <!-- File Picker -->
+    <string name="pick_document">Select document</string>
+    <string name="pick_output_folder">Select output folder</string>
+
+    <!-- File Formats -->
+    <string name="format_pdf">PDF</string>
+    <string name="format_docx">DOCX</string>
+    <string name="format_doc">DOC</string>
+    <string name="format_odt">ODT</string>
+    <string name="format_txt">TXT</string>
+    <string name="format_md">Markdown</string>
+    <string name="format_html">HTML</string>
+    <string name="format_xml">XML</string>
+    <string name="format_rtf">RTF</string>
+    <string name="format_xlsx">XLSX</string>
+    <string name="format_xls">XLS</string>
+    <string name="format_ods">ODS</string>
+    <string name="format_csv">CSV</string>
+    <string name="format_tsv">TSV</string>
+    <string name="format_pptx">PPTX</string>
+    <string name="format_ppt">PPT</string>
+    <string name="format_odp">ODP</string>
+    <string name="format_epub">EPUB</string>
+
+    <!-- Capability Labels -->
+    <string name="capability_supported">Supported</string>
+    <string name="capability_not_supported">Not supported</string>
+    <string name="capability_simplified">Simplified (text-only)</string>
+
+    <!-- Accessibility -->
+    <string name="a11y_open_document">Open a document to view or convert</string>
+    <string name="a11y_convert_document">Start a new conversion</string>
+    <string name="a11y_recent_item">%1$s, %2$s, %3$s</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <!--
+      Dovra does NOT back up user documents to cloud.
+      Only local settings (DataStore) and conversion history (Room) are backed up.
+      The actual document files are NEVER backed up (they remain on user's device).
+    -->
+    <cloud-backup>
+        <exclude domain="sharedpref" path="."/>
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="."/>
+    </device-transfer>
+</data-extraction-rules>

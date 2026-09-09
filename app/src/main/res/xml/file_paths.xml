@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Shareable conversion outputs live under cache; scoped per-app, no broad storage. -->
+    <cache-path name="converted" path="converted/" />
+    <cache-path name="shared" path="shared/" />
+    <cache-path name="temp" path="temp/" />
+    <files-path name="outputs" path="outputs/" />
+</paths>

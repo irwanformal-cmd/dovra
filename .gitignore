@@ -1,0 +1,26 @@
+# Gradle / Android build outputs
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Signing — never commit keys
+*.jks
+*.keystore
+*.p12
+*.pfx
+signing.properties
+keystore.properties
+
+# NDK / CMake
+.externalNativeBuild/
+cxx/
+
+# Test / lint reports are regenerable (kept out of VCS)
+app/build/
+
+# OS noise
+Thumbs.db

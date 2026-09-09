@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Brand green is supplied by ic_launcher_background; foreground draws the mark. -->
+    <!-- Document sheet -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,26 L62,26 L70,34 L70,82 L38,82 Z" />
+    <!-- Fold shading -->
+    <path
+        android:fillColor="#B9E6D6"
+        android:pathData="M62,26 L70,34 L62,34 Z" />
+    <!-- Top arrow: left to right -->
+    <path
+        android:strokeColor="#006E54"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M45,50 L63,50" />
+    <path
+        android:fillColor="#006E54"
+        android:pathData="M63,46.5 L68.5,50 L63,53.5 Z" />
+    <!-- Bottom arrow: right to left -->
+    <path
+        android:strokeColor="#006E54"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M63,62 L45,62" />
+    <path
+        android:fillColor="#006E54"
+        android:pathData="M45,58.5 L39.5,62 L45,65.5 Z" />
+</vector>

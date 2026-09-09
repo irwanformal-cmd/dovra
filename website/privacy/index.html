@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Dovra</title>
+<meta name="description" content="Dovra privacy policy: your documents are processed entirely on your device. No uploads, no analytics, no ads, no tracking.">
+<meta property="og:title" content="Privacy Policy – Dovra">
+<meta property="og:description" content="Your documents stay on your device. Read how Dovra handles (and doesn't handle) your data.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="../assets/dovra-og.png">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="nav">
+    <img class="logo" src="../assets/favicon.png" alt="Dovra logo" width="36" height="36">
+    <a class="brand" href="../">Dovra</a>
+    <nav aria-label="Primary">
+      <a href="../#features">Features</a>
+      <a href="../#formats">Formats</a>
+      <a href="../support/">Support</a>
+      <a href="./">Privacy</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="block">
+    <article class="policy" aria-labelledby="pp-h">
+      <h1 id="pp-h">Dovra Privacy Policy</h1>
+      <p><strong>Effective date:</strong> to be set on first publication.<br>
+      <strong>App:</strong> Dovra – Document Reader &amp; Converter (<code>com.docuconvert.app</code>)</p>
+      <p>Dovra is a private, offline-first document reader and converter for Android. This policy describes what the app does with your information, based on its actual implementation.</p>
+
+      <h2>1. Short version</h2>
+      <ul>
+        <li>Your documents are processed <strong>entirely on your device</strong>. They are never uploaded, never sent to a cloud API, and never shared by the app except when <strong>you explicitly choose</strong> to share or save a file.</li>
+        <li>Dovra contains <strong>no advertising SDKs, no analytics SDKs, and no tracking</strong>.</li>
+        <li>Dovra requests <strong>no internet permission</strong> for document processing.</li>
+        <li>No account is required, and no account information is collected.</li>
+        <li>The app stores only local settings and conversion <strong>metadata</strong> (file names, formats, sizes, timestamps) — never document contents.</li>
+      </ul>
+
+      <h2>2. Document processing (local only)</h2>
+      <ol>
+        <li>You pick files through Android's system file picker (Storage Access Framework) or share them from another app. Dovra reads only the file you selected.</li>
+        <li>Reading, format detection, and conversion run locally with on-device libraries. The app performs <strong>no network requests</strong> during document processing, and external resources referenced inside a document (e.g. remote images) are <strong>not fetched</strong>.</li>
+        <li>Temporary conversion files live in the app's private cache and are deleted after conversion succeeds, fails, is cancelled, or times out (2-minute limit). Orphaned files older than 24 hours are removed automatically.</li>
+      </ol>
+      <p><strong>Document contents never leave your device</strong> unless you tap Share / Open / Save As, in which case Android hands the file to the destination you chose.</p>
+
+      <h2>3. Data stored on your device</h2>
+      <ul>
+        <li><strong>Settings</strong> (appearance, output folder, history toggle, auto-open) — your choices only.</li>
+        <li><strong>Conversion history</strong> (optional; can be disabled or cleared) — file names, formats, sizes, timestamps. Metadata only, never file bytes.</li>
+        <li><strong>Temporary files</strong> — working copies during conversion; never backed up; auto-deleted.</li>
+      </ul>
+      <p>SharedPreferences backup is excluded by the app's data-extraction rules, and document files themselves are never backed up by the app.</p>
+
+      <h2>4. Permissions</h2>
+      <p>Dovra declares <strong>zero runtime permissions</strong>: no internet, no broad storage access. File access works through the Storage Access Framework — the system grants access to exactly the files and folders you select. Sharing uses Android's FileProvider, which exposes only the app's cache <code>converted/</code>, <code>shared/</code>, <code>temp/</code> paths and <code>outputs/</code> — never databases or preferences.</p>
+
+      <h2>5. What Dovra does not do</h2>
+      <ul>
+        <li>No advertising or advertising SDKs.</li>
+        <li>No analytics, telemetry, crash-reporting SDKs, or remote configuration.</li>
+        <li>No accounts, sign-in, or identity collection. No location access.</li>
+        <li>No sale or sharing of personal data — there is no data pipeline to sell from.</li>
+      </ul>
+
+      <h2>6. Third-party libraries</h2>
+      <p>Dovra is built with open-source libraries (fully listed in the app under Settings → About → Open Source Licenses). They run locally as parsers and UI frameworks; none is configured to transmit your documents anywhere.</p>
+
+      <h2>7. Support / donations (external, optional)</h2>
+      <p>The in-app Support section links to Buy Me a Coffee and Saweria. Tapping a link opens it in <strong>your own external browser</strong>. Donating is optional, takes place on those sites under their own policies, and no payment data flows through the app.</p>
+
+      <h2>8. Retention and deletion</h2>
+      <p>Temporary files are deleted as described above. History and settings persist until you delete or clear them, clear app data, or uninstall the app — which removes all app-private data. Because Dovra has no servers or accounts, there is nothing else to request.</p>
+
+      <h2>9. Children</h2>
+      <p>Dovra collects no personal data from anyone, including children. There is no age-gated content and no communication feature.</p>
+
+      <h2>10. Changes</h2>
+      <p>If Dovra's behavior changes, this policy will be updated with a revised effective date, reflected in the app listing with the corresponding update.</p>
+
+      <h2>11. Contact</h2>
+      <p>For privacy questions, contact the developer via the support channel on the app's store listing. (A dedicated support email will be added before publication.)</p>
+    </article>
+  </section>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>Dovra – Document Reader &amp; Converter.</span>
+    <nav aria-label="Footer">
+      <a href="../">Home</a>
+      <a href="../support/">Support</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>

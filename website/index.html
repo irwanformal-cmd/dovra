@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dovra – Document Reader &amp; Converter | Read and convert your documents privately</title>
+<meta name="description" content="Dovra is a private, offline-first Android document reader and converter. Open and convert TXT, DOCX, PDF, spreadsheets, presentations and more — fully on your device, no account, no ads, no tracking.">
+<meta property="og:title" content="Dovra – Document Reader & Converter">
+<meta property="og:description" content="Read and convert your documents privately. 100% offline document processing on your Android device.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/dovra-og.png">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="nav">
+    <img class="logo" src="assets/favicon.png" alt="Dovra logo" width="36" height="36">
+    <a class="brand" href="./">Dovra</a>
+    <nav aria-label="Primary">
+      <a href="#features">Features</a>
+      <a href="#formats">Formats</a>
+      <a href="#how">How it works</a>
+      <a href="support/">Support</a>
+      <a href="privacy/">Privacy</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="hero">
+    <div>
+      <span class="badge">Offline-first · No account · No ads</span>
+      <h1>Dovra – Document Reader &amp; Converter</h1>
+      <p class="tag">Read and convert your documents privately.</p>
+      <p>Dovra opens and converts your documents <strong>entirely on your Android device</strong>. Your files are never uploaded, never sent to a server, and never used for advertising or tracking.</p>
+      <p>
+        <a class="btn" href="#formats">See supported formats</a>
+        <a class="btn ghost" href="support/">Support Dovra</a>
+      </p>
+    </div>
+    <div class="hero-art">
+      <img src="assets/dovra-icon-512.png" alt="Dovra app icon: a document with conversion arrows" width="280" height="280">
+    </div>
+  </div>
+
+  <section class="block" id="features" aria-labelledby="features-h">
+    <h2 id="features-h">Why Dovra</h2>
+    <div class="cards">
+      <div class="card"><h3>Private by design</h3><p>All reading and conversion happens locally. Dovra requests no internet permission for document processing.</p></div>
+      <div class="card"><h3>Reader + converter</h3><p>Preview documents as clean structured text, then convert to the format you need — with honest quality labels.</p></div>
+      <div class="card"><h3>No account, no ads</h3><p>Free to use. No sign-up, no subscriptions, no advertising, no analytics SDKs.</p></div>
+      <div class="card"><h3>Your files, your storage</h3><p>Open files with the system picker (Storage Access Framework) and save results with Save As. Dovra never takes broad storage access.</p></div>
+      <div class="card"><h3>History, not surveillance</h3><p>An on-device conversion history stores file names and formats only — never document contents.</p></div>
+      <div class="card"><h3>Light &amp; dark themes</h3><p>Follow-system, light, and dark appearances with a clean Material 3 interface.</p></div>
+    </div>
+  </section>
+
+  <section class="block" id="formats" aria-labelledby="formats-h">
+    <h2 id="formats-h">Supported formats</h2>
+    <p>Dovra can <strong>open all formats below for viewing</strong>. Conversion targets depend on the source document — the app only offers conversions its engine genuinely supports, labelled <strong>Full</strong> or <strong>Simplified</strong> (with an honest note such as “Slide outline only”).</p>
+    <table class="formats">
+      <thead><tr><th scope="col">Source</th><th scope="col">Convert to</th></tr></thead>
+      <tbody>
+        <tr><td>PDF</td><td>TXT (full) · HTML, MD (simplified, text layout only)</td></tr>
+        <tr><td>DOCX</td><td>TXT, HTML, RTF (full) · PDF, ODT, MD (simplified)</td></tr>
+        <tr><td>DOC (legacy, read-only source)</td><td>TXT (full) · HTML, DOCX, PDF (simplified)</td></tr>
+        <tr><td>ODT</td><td>TXT, HTML (full) · DOCX, PDF (simplified)</td></tr>
+        <tr><td>TXT</td><td>MD, HTML, PDF (full)</td></tr>
+        <tr><td>MD</td><td>HTML, TXT (full) · PDF (simplified, rendered text)</td></tr>
+        <tr><td>HTML</td><td>TXT (full) · MD, PDF (simplified)</td></tr>
+        <tr><td>RTF</td><td>TXT (full) · HTML, DOCX, PDF (simplified)</td></tr>
+        <tr><td>XML</td><td>TXT (full) · HTML (simplified, syntax highlighted)</td></tr>
+        <tr><td>XLSX</td><td>CSV, TSV, HTML (full) · PDF (simplified, table grid only) · XLS (simplified)</td></tr>
+        <tr><td>XLS</td><td>CSV, TSV (full) · XLSX (simplified)</td></tr>
+        <tr><td>ODS</td><td>CSV, TSV, HTML (full) · XLSX (simplified)</td></tr>
+        <tr><td>CSV</td><td>XLSX, HTML, TSV (full) · PDF (simplified, table grid only)</td></tr>
+        <tr><td>TSV</td><td>CSV, XLSX, HTML (full)</td></tr>
+        <tr><td>PPTX</td><td>TXT (full) · PDF, HTML (simplified, slide outline only)</td></tr>
+        <tr><td>PPT</td><td>TXT (full) · PDF (simplified, slide outline only)</td></tr>
+        <tr><td>ODP</td><td>TXT (full) · PDF (simplified, slide outline only)</td></tr>
+        <tr><td>EPUB</td><td>TXT, HTML (full) · PDF, MD (simplified)</td></tr>
+      </tbody>
+    </table>
+    <p class="note">DjVu is explicitly unsupported. Presentations convert as text/outline extraction — Dovra never claims pixel-perfect slide rendering.</p>
+  </section>
+
+  <section class="block" id="how" aria-labelledby="how-h">
+    <h2 id="how-h">How it works</h2>
+    <ol class="steps">
+      <li><strong>Open</strong> a document with the system file picker, or from another app via “Open with”.</li>
+      <li><strong>Preview</strong> it as clean structured text; Dovra warns you if a file’s contents don’t match its extension.</li>
+      <li><strong>Convert</strong> by picking one of the genuinely supported targets, with a live progress indicator.</li>
+      <li><strong>Save or share</strong> the result with Save As, or keep it in your on-device history.</li>
+    </ol>
+    <p class="note">Temporary conversion files live in the app’s private cache and are deleted after conversion, on cancellation, on timeout, and by an automatic orphan sweep.</p>
+  </section>
+
+  <section class="block" id="support-cta" aria-labelledby="support-h">
+    <h2 id="support-h">Free, independent, supported by users</h2>
+    <p>Dovra is free and developed independently. If you find it useful, you can optionally support its development:</p>
+    <p>
+      <a class="btn" href="https://buymeacoffee.com/riaksupport" rel="noopener">Buy Me a Coffee</a>
+      <a class="btn ghost" href="https://saweria.co/riaksupport" rel="noopener">Saweria</a>
+    </p>
+    <p class="note">Donations are optional and handled entirely in your browser — never inside the app.</p>
+  </section>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>Dovra – Document Reader &amp; Converter. Your files stay on your device.</span>
+    <nav aria-label="Footer">
+      <a href="privacy/">Privacy Policy</a>
+      <a href="support/">Support</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
