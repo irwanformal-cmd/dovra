@@ -127,6 +127,10 @@ Thanks to everyone who builds with this project! 🙏
 
 ---
 
+## Demo
+
+![Demo](website/assets/demo-web.gif)
+
 ## License table (shipped deps — no GPL/AGPL)
 
 | Library | Version | License |
