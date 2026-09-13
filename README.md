@@ -115,6 +115,18 @@ framework `DocumentBuilder`).
   objects/pictures become placeholders.
 - Large files can hit the 2-minute conversion timeout or memory limits on low-end devices.
 
+## Contributors
+
+Thanks to everyone who builds with this project! 🙏
+
+<a href="https://github.com/irwanformal-cmd">
+  <img src="https://github.com/irwanformal-cmd.png?size=100" width="50" height="50" style="border-radius:50%" alt="irwanformal-cmd" />
+</a>
+
+**[@irwanformal-cmd](https://github.com/irwanformal-cmd)** — creator & maintainer
+
+---
+
 ## License table (shipped deps — no GPL/AGPL)
 
 | Library | Version | License |
